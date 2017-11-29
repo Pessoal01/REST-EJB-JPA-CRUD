@@ -1,6 +1,6 @@
 # REST-EJB-JPA-CRUD
 
-This repository is just an example on how to create a provider of REST resources as well as invoking them from the server directly (using URL) or from client application. These REST enable us to perform CRUD operation using particular HTTP methods i.e. GET, POST, PUT, DELETE.
+This repository is just an example on how to create a provider of REST resources as well as invoking them from the server directly (using URL) or from client application. These REST enable us to perform CRUD operations using particular HTTP methods i.e. GET, POST, PUT, and DELETE.
 
 List of URLs:
 1. Return employees data with json format: http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/getEmployeesJSON
