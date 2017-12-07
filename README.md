@@ -1,15 +1,15 @@
 # REST-EJB-JPA-CRUD
 
-This repository is just an example on how to create a provider of REST resources as well as invoking them from the server directly (using URL) or from client application. These REST enable us to perform CRUD operations using particular HTTP methods i.e. GET, POST, PUT, and DELETE.
+This repository is just an example on how to create a provider and a client of REST resources as well as invoking them from URL directly or from client application using HTTP protocol. These REST enable us to perform CRUD operations using particular HTTP methods i.e. GET, POST, PUT, and DELETE.
 
 List of URLs:
-1. Return employees data with json format: http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/getEmployeesJSON
-2. Return employees data with xml format: http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/getEmployeesXML
-3. Return an employee object with json format: http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/getEmployeeByIdJSON/id=?
-4. Return an employee object with xml format: http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/getEmployeeByIdXML/id=?
-5. Add employee: http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/addEmployee/name=?/address=?
-6. Update employee: http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/updateEmployee/id=?/name=?/address=?
-7. Delete employee: http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/deleteEmployeeById/id=?
+1. Return employees data with json format (HTTP Method-> GET): http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/getEmployeesJSON
+2. Return employees data with xml format (HTTP Method-> GET): http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/getEmployeesXML
+3. Return an employee object with json format (HTTP Method-> GET): http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/getEmployeeByIdJSON/id=?
+4. Return an employee object with xml format (HTTP Method-> GET): http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/getEmployeeByIdXML/id=?
+5. Add employee (HTTP Method-> POST): http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/addEmployee/name=?/address=?
+6. Update employee (HTTP Method-> PUT): http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/updateEmployee/id=?/name=?/address=?
+7. Delete employee (HTTP Method-> DELETE): http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/deleteEmployeeById/id=?
 
 Requirements:
 1. Netbeans 8.1
