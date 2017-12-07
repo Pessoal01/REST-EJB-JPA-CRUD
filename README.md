@@ -2,7 +2,7 @@
 
 This repository is just an example on how to create a provider and a client of REST resources as well as invoking them from URL directly or from client application using HTTP protocol. These REST enable us to perform CRUD operations using particular HTTP methods i.e. GET, POST, PUT, and DELETE.
 
-List of URLs:
+List of URLs (assuming you run it on your local host with wildfly's default port 8080):
 1. Return employees data with json format (HTTP Method-> GET): http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/getEmployeesJSON
 2. Return employees data with xml format (HTTP Method-> GET): http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/getEmployeesXML
 3. Return an employee object with json format (HTTP Method-> GET): http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/getEmployeeByIdJSON/id=?
