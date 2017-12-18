@@ -11,7 +11,7 @@ List of URLs (assuming you run it on your local host with wildfly's default port
 6. Update employee (HTTP Method-> PUT): http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/updateEmployee/id=?/name=?/address=?
 7. Delete employee (HTTP Method-> DELETE): http://localhost:8080/REST-EJB-JPA-1.0-SNAPSHOT/resources/employee/deleteEmployeeById/id=?
 
-Requirements:
+Prerequisites:
 1. Netbeans 8.1
 2. Maven
 3. Java EE
